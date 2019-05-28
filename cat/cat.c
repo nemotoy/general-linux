@@ -1,8 +1,11 @@
+// rf. '$ man 2 read'
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
 #include <sys/types.h>
 #include <sys/stat.h>
+// rf. '$ man 2 close'
+#include <unistd.h>
+// rf. '$ man 2 open'
 #include <fcntl.h>
 
 static void do_cat(const char *path);
